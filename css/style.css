@@ -151,6 +151,10 @@ button {
 	font-size: 1.75rem;
 }
 
+.footer-socket-area {
+	font-size: 0.5rem;
+}
+
 /******* FEEDBACK *******/
 .results-wrapper {
 	display: flex;

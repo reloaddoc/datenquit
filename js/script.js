@@ -163,8 +163,8 @@ function $fade(appState){
 				$('.question-answer-wrapper, .answer-wrapper').removeClass('begin');
 				$('.submit-btn, .progress, .progress-bar').removeClass('hide');
 				$('.progress, .progress-bar').hide();
-				$('.question-answer-wrapper, .question-wrapper, .answer-wrapper, .progress, .progress-bar').fadeIn(500);
-				if(!$('.code').hasClass('hide')){$('.code').fadeIn(500)};
+				$('.question-answer-wrapper, .question-wrapper, .answer-wrapper, .progress, .progress-bar').fadeIn(1000);
+				if(!$('.code').hasClass('hide')){$('.code').fadeIn(1000)};
 	    });
 
 	// This is if the app is in the middle of execution
@@ -179,7 +179,7 @@ function $fade(appState){
 
 // Work in progress...
 function $showResults(appState){
-	if(appState.correctAnswers === 10){
+	if(appState.correctAnswers === 5){
 		let endMsg = `Sie haben ${appState.percCorrect}% richtig!
 Wir können Ihnen nichts mehr beibringen. Bravo!
 `;
