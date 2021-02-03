@@ -2,7 +2,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width initial-scale=1">
 		<meta name="description" content="This is a quiz designed for basic HTML, CSS, and JavaScript basics.">
-		<title>Quiz - HTML, CSS, and JS Basics</title>
+		<title>Quiz - Daten</title>
 		<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&amp;display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/layout.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -10,17 +10,17 @@
 	<body>
 		<header>
 			<section class="title">
-				<h1>Quiz<span class="sub-title">Front End Fundamentals</span></h1>
+				<h1>Quiz<span class="sub-title">Daten</span></h1>
 			</section>
-			<button type="button" class="hide hint-btn">Hint</button>
+			<button type="button" class="hide hint-btn">Lösung</button>
 		</header>
 
 		<main>
 			<article class="question-answer-wrapper" style="display: flex;">
 				<section class="results-wrapper" style="display: flex;">
-					<p class="quiz-end-score" style="display: flex;">You got 40% correct!</p>
+					<p class="quiz-end-score" style="display: flex;">Sie haben 40% richtig gelöst.</p>
 					<div class="quiz-end-feedback" style="display: flex;">
-						<p class="quiz-end-feedback-p">You missed a few. You may want to study up on the following topics:</p>
+						<p class="quiz-end-feedback-p">Sie haben ein paar Fragen falsch gelöst. Wir empfehlen, dass Sie sich noch einmal mit folgenden Themen beschäftigten:</p>
 						<div class="quiz-end-categories"><ul class="failures"><li class="category">accessibility</li><li class="category">forms</li><li class="category">loops</li><li class="category">CSS</li><li class="category">conditionals</li><li class="category">objects</li></ul></div>
 					</div>
 					<button type="button" class="retry-btn pass" style="display: flex;">Retry</button>
@@ -38,8 +38,7 @@
 }
 console.log(obj.multiply() * 2);</pre></p></section>
 				<form class="answer-wrapper" style="display: none;">
-					<button type="button" class="start-quiz" style="display: none;">Start Quiz</button>
-					<button type="button" class="quit-quiz" style="display: none;">Quit</button>
+					<button type="button" class="start-quiz" style="display: none;">Beginne Quiz</button>
 					<input type="submit" class="submit-btn-portrait continue-btn" value="Continue">
 				</form>
 			</article>
