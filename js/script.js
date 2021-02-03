@@ -159,7 +159,7 @@ function $fade(appState){
 				// Lots to do... mostly just setting up a new environment for a new quiz
 				$updateQuestion(appState);
 				$('progress-bar').empty();
-				$('progress-fill').html('Progress: <span class="progress-count">1 / 10</span><span class="progress-perc"></span>');
+				$('progress-fill').html('Progress: <span class="progress-count">1 / 5</span><span class="progress-perc"></span>');
 				$('.question-answer-wrapper, .answer-wrapper').removeClass('begin');
 				$('.submit-btn, .progress, .progress-bar').removeClass('hide');
 				$('.progress, .progress-bar').hide();
